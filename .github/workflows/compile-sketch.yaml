@@ -15,7 +15,7 @@ jobs:
         uses: arduino/compile-sketches@v1.1.2
         with:
           fqbn: arduino:renesas_uno:unor4wifi
-          sketch-path: |
+          sketch-paths: |
             - ./
           libraries: |
-            -
+            - 
