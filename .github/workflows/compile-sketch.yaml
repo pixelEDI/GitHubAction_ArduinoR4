@@ -1,0 +1,21 @@
+name: Compile Sketch
+
+on:
+  - push
+
+jobs:
+  compile-sketch:
+    runs-on: ubuntu-latest
+
+    steps:
+      # This step makes the contents of the repository available to the workflow
+      - name: Checkout repository
+        uses: actions/checkout@v4    
+      - name: Compile sketch
+        uses: arduino/compile-sketches@v1.1.2
+        with:
+          fqbn: arduino:renesas_uno:unor4wifi
+          sketch-path: |
+            - ./
+          libraries: |
+            -
