@@ -1,0 +1,1 @@
+[![Compile Sketch](https://github.com/pixelEDI/GitHubAction_ArduinoR4/actions/workflows/compile-sketch.yaml/badge.svg)](https://github.com/pixelEDI/GitHubAction_ArduinoR4/actions/workflows/compile-sketch.yaml)
